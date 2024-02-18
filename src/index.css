@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./assets/fondo2-prueba.png);
+    background-size: cover;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.main-hero {
+    background: #f5deb3a3;
+}
+
+/* ESTILOS - MENÚ */
+.navbar {
+    background-color: #f3f3b7;
+    padding: 1rem 4%;
+    height: 15vh;
+}
+
+.navbar-nav {
+    gap: 2rem;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.navbar-logo {
+    width: 50px;
+}
+
+.logoNav {
+    width: 100px;
+}
+
+.navbar-toggler {
+    border: 2px solid white;
+}
+
+main {
+
+}
+
+.contenedor-pokedex {
+    max-width: 1200px;
+}
+
+.contenedor-pokedex img {
+    width: 12rem;
+    height: 12rem;
+}
+
+.jugarPokemonImg {
+    width: 20rem;
+    height: 20rem;
+}
+
+.btn-opciones {
+    width: 10rem;
+}
+
+.inicioImg {
+    width: 10rem;
+    height: 10rem;
+}
+
+.logosLogin {
+    width: 100px;
+}
+
+.listaStats {
+    list-style: none;
+    background-color: wheat;
+}
